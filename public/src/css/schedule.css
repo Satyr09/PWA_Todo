@@ -1,0 +1,36 @@
+#create-post {
+  position: fixed;
+  width: 100%;
+  min-height: calc(100vh -56px);
+  overflow-y: auto;
+  bottom: 0;
+  top: 56px;
+  background: #dbe3e7;
+  text-align: center;
+  display: none;
+  z-index: 9999;
+}
+
+.main-image {
+  max-width: 100%;
+  margin: auto;
+  display: block;
+}
+
+.floating-button {
+  z-index: 1000;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  padding: 30px;
+}
+
+.input-section {
+  display: block;
+  margin: 10px auto;
+}
+
+.card-area-card {
+  margin: 0 auto;
+  margin-bottom: 15px;
+}

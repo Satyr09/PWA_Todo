@@ -1,0 +1,14 @@
+{
+  "name": "devfebtodo",
+  "version": "0.0.1",
+  "description": "A simple app to serve as a first step into pwa land",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server -c-1"
+  },
+  "author": "Daipayan",
+  "license": "ISC",
+  "devDependencies": {
+    "http-server": "^0.10.0"
+  }
+}
